@@ -1,0 +1,26 @@
+@import "../../App.scss";
+
+i, p{
+    color: #B9B9B9;
+}
+
+a{
+    &:hover{
+        i, p{   
+            color: $primary;
+        }
+    }
+
+    li{
+        display: flex;
+        gap: 10px;
+        font-size: 16px;
+        
+        
+        i{
+            // padding: 0;
+            width: 25px;
+        } 
+
+    }
+}

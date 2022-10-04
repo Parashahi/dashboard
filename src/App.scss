@@ -1,0 +1,30 @@
+$default-font : Euclid Circular A Regular ;
+$septenary: #232323;
+$senary: #2a2a2a;
+$quinary: #101014;
+$quaternary: #1b1b1b;
+$tertiary:  #e7dcf4;
+$secondary: #f2eee9; 
+$primary: #E6DFF1;
+
+
+*{
+  font-family: $default-font;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  color: $primary;
+  transition: all 0.3s ease 0s;
+}
+.MainHome{
+  background-color: #101014;
+  display: flex;
+  margin: 20px;
+  border-radius: 20px;
+  height: 970px;
+  width: 1230px;
+}
+// i{
+//   color: white;
+// }

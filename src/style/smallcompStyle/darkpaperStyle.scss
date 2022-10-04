@@ -1,0 +1,23 @@
+@import "../../App.scss";
+
+.Darkpaper{
+    background-color: $quaternary;
+    border-radius: 15px;
+    padding: 20px 30px;
+    text-align: center;
+    height: 155px;
+    
+    img{
+        margin: 5px 0 0 0;
+    }
+
+    p{
+        color: grey;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    span{
+        font-size: 14px;
+        
+    }
+}

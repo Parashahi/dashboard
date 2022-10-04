@@ -1,0 +1,213 @@
+@import "../../App.scss";
+
+.mediumpaper{
+    margin: 30px 0;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: $septenary;
+
+    .head{
+        display: flex;
+        gap: 10px;
+
+        .icon{
+            i{
+                color: $primary;
+                font-size: 14px;
+            }
+        }
+
+        .time{
+            p{
+                font-size: 12px;
+                padding: 3px 0;
+            }
+            h4{
+                
+                font-size: 18px;
+            }
+        }
+    }
+
+    .bar{
+
+        img{
+            width: 100%;
+            height: 100px;
+        }
+    }
+
+    .bargraph{
+        height: 100px;
+        // display: flex;
+        // gap: 37px;
+        padding: 15px 15px 0 15px;
+        position: relative;
+
+        .grey1{
+            position: absolute;
+            // top: 20px;
+            left: 15px;
+            bottom: 0px;
+            height: 60%;
+            width: 7px;
+            background-color: $senary;
+            border-radius: 24px;
+
+            .white{
+                position: absolute;
+                width: 100%;
+                bottom: 0;
+                border-radius: 24px;
+                height: 80%;
+                background-color: $primary;
+
+            }
+        }
+
+        .grey2{
+            position: absolute;
+            bottom: 0;
+            left: 60px;
+            height: 50%;
+            width: 7px;
+            background-color: $senary;
+            border-radius: 24px;
+
+            .white{
+                position: absolute;
+                width: 100%;
+                bottom: 0;
+                border-radius: 24px;
+                height: 60%;
+                background-color: $primary;
+
+            }
+        }
+
+        .grey3{
+            position: absolute;
+            bottom: 0;
+            left: 105px;
+            height: 70%;
+            width: 7px;
+            background-color: $senary;
+            border-radius: 24px;
+
+            .white{
+                position: absolute;
+                width: 100%;
+                bottom: 0;
+                border-radius: 24px;
+                height: 70%;
+                background-color: $primary;
+
+            }
+        }
+
+        .grey4{
+            position: absolute;
+            bottom: 0;
+            left: 150px;
+            height: 100%;
+            width: 7px;
+            background-color: $senary;
+            border-radius: 24px;
+
+            .white{
+                position: absolute;
+                width: 100%;
+                bottom: 0;
+                border-radius: 24px;
+                height: 80%;
+                background-color: $primary;
+
+            }
+        }
+
+        .grey5{
+            position: absolute;
+            bottom: 0;
+            right: 102px;
+            height: 100%;
+            width: 7px;
+            background-color: $senary;
+            border-radius: 24px;
+
+            .white{
+                position: absolute;
+                width: 100%;
+                bottom: 0;
+                border-radius: 24px;
+                height: 78%;
+                background-color: $primary;
+
+            }
+        }
+
+        .grey6{
+            position: absolute;
+            bottom: 0;
+            right: 60px;
+            height: 80%;
+            width: 7px;
+            background-color: $senary;
+            border-radius: 24px;
+
+            .white{
+                position: absolute;
+                width: 100%;
+                bottom: 0;
+                border-radius: 24px;
+                height: 30%;
+                background-color: $primary;
+
+            }
+        }
+
+        .grey7{
+            position: absolute;
+            bottom: 0;
+            right: 15px;
+            height: 80%;
+            width: 7px;
+            background-color: $senary;
+            border-radius: 24px;
+
+            .white{
+                position: absolute;
+                width: 100%;
+                bottom: 0;
+                border-radius: 24px;
+                height: 70%;
+                background-color: $primary;
+
+            }
+        }
+
+    }
+
+    .days{
+        margin: 10px 0 0 0 ;
+        ul{
+            display: flex;
+            gap: 5px;
+            
+            li{
+                text-align: center;
+                width: 20px;
+                color: grey;
+                font-size: 10px;
+                padding: 5px 10px ;
+                border-radius: 8px;
+                background-color: transparent;
+
+                &:hover{
+                    background-color: $senary;
+                }
+            }
+        }
+    }
+
+    
+}

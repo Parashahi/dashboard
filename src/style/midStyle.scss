@@ -1,0 +1,78 @@
+@import "../App.scss";
+ 
+
+.mid-content{
+
+    padding: 20px 40px;
+    width: 600px;
+
+    .mid-head{
+        display: flex;
+        justify-content: space-between;
+
+        .location{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            i{
+                font-size: 20px;
+                color: $primary;
+            }
+
+            p {
+                font-size: 14px;
+                color: $primary;
+
+                strong{
+                    color: $primary;
+                }
+                
+            }
+        }
+
+        .button-profile{
+            display: flex;
+            gap: 20px;
+
+            .time{
+                i{
+                    font-size: 15px;
+                    color: $primary;
+                }
+                button{ 
+                    background: $quaternary;
+
+                    &:hover{
+                        background-color: $senary;
+                    }
+                }
+            }   
+            .profile{
+                
+                button{
+                    background-image: url("../images/me.jpg");
+                }
+                
+            }
+
+        }
+    }
+
+    .mid-papers{
+        margin: 40px 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+
+    .mid-darkpapers{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+    }
+
+    .mid-bigpaper{
+        margin: 20px  0 0 0;
+    }
+}

@@ -1,0 +1,65 @@
+@import "../../App.scss";
+
+.Bigpaper{
+    background-color: $quaternary;
+    border-radius: 15px;
+    padding: 30px 20px;
+    height: 220px;
+
+    .bigpaper-head{
+        display: flex;
+        justify-content: space-between;
+
+        .left-head{
+            display: flex;
+            gap: 15px;
+
+            .Button2{
+                button{
+                    background-image: url(../../images/me.jpg);
+                }
+            }
+
+            .head-date{
+                // margin: 0 175px 0 0;
+
+                i{
+                    padding-right: 5px;
+                    color: $primary;
+                }
+            }
+        }
+
+        .Button1{
+            
+            button{
+                height: 40px;
+                font-size: 12px;               
+                border-radius: 30px;
+                background-color: $senary;
+                padding: 10px;
+                height: 35px;
+
+                &:hover{
+                    background-color: $quinary;
+                }
+            }
+        }
+    }
+
+    .bigpaper-img{
+        text-align: center;
+
+        img{
+            margin: 10px 0 0 0;
+            width: 100%;
+            height: 100px;
+        }
+        p{
+            font-size: 18px;
+        }
+        h3{
+            font-size: 24px;
+        }
+    }
+}

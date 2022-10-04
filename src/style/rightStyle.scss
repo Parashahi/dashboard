@@ -1,0 +1,92 @@
+@import "../App.scss";
+
+.Rightcontent{
+    background-color: $quaternary;
+    border-radius: 20px;
+    // height: 100%;
+    width: 400px;
+    margin: 20px 30px 20px 0;
+
+    .right-main{
+        padding: 30px;
+
+        .right-head{
+            display: flex;
+            justify-content: space-between;
+
+            .right-head-left{
+                h1{
+                    color: $primary;
+                    font-size: 24px;
+                }
+                p{
+                    margin: 5px auto;
+                    color: $primary;
+                    font-size: 14px;
+                }
+            }       
+
+            .Button2{
+                button{
+                    background-color: transparent;
+                    border: 1px solid $primary;
+                }
+            }
+        }
+
+        .date-buttons{
+            display: flex;
+            gap: 5px;
+            margin: 30px auto;
+
+            .date{
+                padding: 10px;
+                border-radius: 12px;
+                background-color: transparent;
+                text-align: center;
+                width: 40px;
+
+                &:hover{
+                    background-color: $senary;
+                }
+
+                p{
+                    padding: 0 0 20px 0;
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .graph{
+            img{
+                width: 100%;
+                height: 100px;
+            }
+        }
+
+        .graph-data{
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+
+            h1{
+                font-size: 20px;
+            }
+            p{
+                font-size: 12px;
+                font-weight: 600;
+                padding: 5px 0 0 0;
+            }
+
+            .left, .right{
+                text-align: right;
+                
+            }
+        }
+
+        .bottom-paper{
+            display: flex;
+            gap: 20px;
+        }
+    }
+}
